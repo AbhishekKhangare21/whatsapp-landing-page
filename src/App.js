@@ -1,11 +1,15 @@
 import "./App.css";
 import Footer from "./components/Footer";
 import LandingPage from "./pages/LandingPage";
+import Bg from "./assets/images/bg.jpg";
 
 function App() {
   return (
-    <div className="bg-gray-600">
-      <header className="">
+    <div
+      className="bg-gradient-to-r from-[#1b721d] to-[#419658]"
+      style={{ background: Bg }}
+    >
+      <header>
         <LandingPage />
       </header>
       <footer>
