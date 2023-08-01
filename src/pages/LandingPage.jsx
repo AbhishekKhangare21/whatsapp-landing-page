@@ -1,6 +1,6 @@
 import React from "react";
 import { BsPaypal, BsWhatsapp } from "react-icons/bs";
-import Phone from "../assets/images/phone.png";
+import Phone from "../assets/images/phone2.jpg";
 
 const LandingPage = () => {
   return (
@@ -35,12 +35,12 @@ const LandingPage = () => {
             </p>
           </div>
         </div>
-        <div className="flex-1">
+        <div className="m-auto">
           <div className=" align-middle text-center">
             <img
               src={Phone}
               alt="phoneImg"
-              // className="h-[620px] w-[600px] cursor-pointer"
+              className="mt-6 	 w-[600px] cursor-pointer"
             />
           </div>
         </div>
