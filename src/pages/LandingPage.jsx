@@ -15,10 +15,13 @@ const LandingPage = () => {
           </div>
           <div className="flex flex-col lg:ml-36  text-white">
             <div className="flex justify-center lg:justify-start">
-              <button className="w-40 py-3 px-0 text-sm shadow-sm rounded-full  bg-[#0088cc] hover:bg-[#d39804] flex text-center justify-center">
+              <a
+                href="https://telegram.me/+i6L4WUHS3Ro4Njk1"
+                className="w-40 py-3 px-0 text-sm shadow-sm rounded-full  bg-[#0088cc] hover:bg-[#d39804] flex text-center justify-center"
+              >
                 <BsTelegram className="inline text-xl mx-2" />
-                <h4>Join Now</h4>
-              </button>
+                <h1>Join Now</h1>
+              </a>
             </div>
           </div>
           <div className="mt-8 flex flex-col text-lg text-white">
